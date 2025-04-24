@@ -14,7 +14,6 @@ public class Main {
         Conta conta2 = new ContaPJ(1003, "João", 0.0, 500.0); // upcasting
         Conta conta3 = new SavingsAcount(1004, "Ana", 0.0, 0.01);
         
-
         //downCasting
         ContaPJ conta4 = (ContaPJ) conta2;
         conta4.limiteEmprestimo(100.0); // chamando o método da classe ContaPJ
